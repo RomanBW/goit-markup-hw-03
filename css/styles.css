@@ -25,14 +25,28 @@ img {
 /**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /**------------------------HEADER----------------------------*/
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
   width: 1440px;
   height: 72px;
   flex-shrink: 0;
-  display: inline-flex;
+  width: 1158px;
+  margin: auto;
+  padding: 0 15px 0 15px;
 }
 
 .header-nav {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
 }
 
 .header-logo {
@@ -43,6 +57,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 span {
