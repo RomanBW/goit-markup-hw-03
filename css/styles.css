@@ -29,11 +29,11 @@ img {
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
   height: 72px;
   flex-shrink: 0;
   width: 1158px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 15px 0 15px;
   display: flex;
 }
@@ -53,6 +53,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: flex;
 }
 
 span {
