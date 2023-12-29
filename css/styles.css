@@ -123,6 +123,10 @@ span {
   color: #404bbf;
 }
 
+.address-link {
+  gap: 40px;
+}
+
 .header-adress {
   font-style: normal;
 }
