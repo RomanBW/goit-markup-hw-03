@@ -328,6 +328,7 @@ span {
 .container-our {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-title {
@@ -353,6 +354,7 @@ span {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   color: #4d5ae5;
