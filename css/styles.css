@@ -186,6 +186,7 @@ span {
 
 .main-item-link {
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .main-item {
@@ -213,10 +214,6 @@ span {
   padding: 0;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-}
-
-.main-link-one {
-  width: calc((100% - 72px) / 4);
 }
 
 .main-item-text {
