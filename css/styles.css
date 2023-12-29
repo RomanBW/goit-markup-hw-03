@@ -299,6 +299,11 @@ span {
 
 /**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /**------------------------TEAM----------------------------*/
+/**?____section-portfolio____**/
+
+.section-portfolio {
+  padding: 120px 0 120px 0;
+}
 
 .portfolio-name {
   color: #2e2f42;
@@ -309,6 +314,7 @@ span {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio-title {
