@@ -145,7 +145,7 @@ span {
 
 /**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /**------------------------MAIN----------------------------*/
-
+/**?____section-main-dark____**/
 .section-main-dark {
   background-color: #2e2f42;
   width: 1440px;
@@ -189,9 +189,14 @@ span {
   font-family: "Roboto", sans-serif;
 }
 
-.section-main-dark {
-  background-color: #2e2f42;
-  padding: 120px 0;
+/**?____section-main-item____**/
+.section-main-item {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.main-item-link {
+  gap: 24px;
 }
 
 .main-item {
@@ -202,6 +207,10 @@ span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+  margin-bottom: 8px;
 }
 
 .main-item-text {
