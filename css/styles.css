@@ -252,6 +252,12 @@ span {
   margin-bottom: 72px;
 }
 
+.section-team-link {
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .section-title-name {
   color: #2e2f42;
   text-align: center;
