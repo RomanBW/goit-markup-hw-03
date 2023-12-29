@@ -231,10 +231,11 @@ span {
 
 /**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /**------------------------TEAM----------------------------*/
-/**?____section-main-item____**/
+/**?____section-team____**/
 
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .section-team-title {
@@ -246,6 +247,7 @@ span {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .section-title-name {
