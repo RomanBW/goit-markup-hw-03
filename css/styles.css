@@ -201,9 +201,6 @@ span {
 .main-item-link {
   gap: 24px;
 }
-.main-list-item {
-  width: calc((100% - 72px) / 4);
-}
 
 .main-item {
   color: #2e2f42;
@@ -214,6 +211,7 @@ span {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
