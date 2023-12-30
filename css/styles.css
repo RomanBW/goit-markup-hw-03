@@ -323,6 +323,7 @@ span {
 /**?____section-portfolio____**/
 
 .section-portfolio {
+  background: #fff;
   padding: 120px 0 120px 0;
 }
 
@@ -377,7 +378,6 @@ span {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  max-width: 1440px;
   flex-shrink: 0;
 }
 .footer-logo {
@@ -390,6 +390,7 @@ span {
   text-transform: uppercase;
   display: inline-block;
   margin-right: 76px;
+  padding-bottom: 16px;
 }
 
 .footer-logo-span {
