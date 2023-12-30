@@ -5,7 +5,6 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
 }
 
@@ -120,9 +119,7 @@ span {
 
 .adress-info {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -130,9 +127,7 @@ span {
 
 .adress-info {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -160,7 +155,6 @@ span {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
-  padding: 188px 0;
 }
 
 .main-title {
@@ -172,6 +166,8 @@ span {
   letter-spacing: 0.02em;
   box-sizing: border-box;
   max-width: 496px;
+  margin-top: 188px;
+  margin-bottom: 292px;
 }
 
 .main-button {
@@ -190,6 +186,8 @@ span {
   align-items: flex-start;
   gap: 10px;
   display: block;
+  margin-top: 356px;
+  margin-bottom: 188px;
 }
 
 .main-button:hover,
@@ -256,6 +254,9 @@ span {
 .section-team {
   background-color: #f4f4fd;
   padding: 120px 0;
+  width: 1440px;
+  height: 732px;
+  flex-shrink: 0;
 }
 
 .section-team-title {
@@ -277,6 +278,7 @@ span {
 .team-link-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  margin-top: 232px;
 }
 
 .container-text {
@@ -306,16 +308,14 @@ span {
   letter-spacing: 0.02em;
 }
 
-.team-link-item {
-  background-color: #ffffff;
-}
-
 /**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /**------------------------TEAM----------------------------*/
 /**?____section-portfolio____**/
 
 .section-portfolio {
   padding: 120px 0 120px 0;
+  width: 1440px;
+  height: 1240px;
 }
 
 .portfolio-name {
@@ -367,9 +367,8 @@ span {
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0px;
-  max-width: 1440px;
-  max-width: 312px;
+  padding: 100px 0;
+  min-width: 1440px;
   flex-shrink: 0;
 }
 .footer-logo {
@@ -390,6 +389,7 @@ span {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 101.5px;
 }
 .footer-text {
   color: #f4f4fd;
