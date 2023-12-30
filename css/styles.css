@@ -328,7 +328,7 @@ span {
   row-gap: 48px;
 }
 
-.portfolio-item {
+.portfolio-item-text {
   width: calc((100% - 48px) / 3);
 }
 
@@ -375,10 +375,9 @@ span {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-.footer-name {
-  display: inline-block;
-}
+
 .footer-logo-span {
+  display: inline-block;
   color: #f4f4fd;
   font-size: 18px;
   font-weight: 700;
