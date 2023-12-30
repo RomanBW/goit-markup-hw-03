@@ -1,3 +1,9 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
 *,
 *::before,
 *::after {
@@ -105,14 +111,19 @@ span {
   align-items: flex-start;
   gap: 40px;
   padding-left: 76px;
-  padding-right: 332px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
 /*++++++++++++ADDRESS++++++++++++++*/
 
-.adress-info {
+.address-mailto {
+  width: 153px;
+  height: 24px;
+  margin: 24px 40px 24px 332px;
+}
+
+.address-info-mailto {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -120,7 +131,14 @@ span {
   letter-spacing: 0.02em;
 }
 
-.adress-info {
+.address-tel {
+  width: 153px;
+  height: 24px;
+  margin: 24px 156px 24px 40px;
+}
+
+.address-info-tel {
+  width: 151px;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -180,8 +198,6 @@ span {
   align-items: flex-start;
   gap: 10px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .main-button:hover,
@@ -324,6 +340,7 @@ span {
   margin-bottom: 72px;
 }
 .portfolio-link {
+  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -375,6 +392,8 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
+  margin-right: 76px;
+  display: inline-block;
 }
 
 .footer-logo-span {
