@@ -51,19 +51,21 @@ img {
 }
 
 .container {
-  max-width: 1440px;
   width: 1158px;
-  height: 72px;
-  display: flex;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header-container {
+  display: flex;
 }
 
 .header-nav {
   flex-shrink: 0;
   display: flex;
   align-items: center;
+  margin: auto;
 }
 
 .header-logo {
@@ -108,11 +110,8 @@ span {
 .header-link {
   display: flex;
   display: inline-flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
-  padding-left: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 /*++++++++++++ADDRESS++++++++++++++*/
