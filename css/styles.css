@@ -257,9 +257,8 @@ span {
 /**?____section-team____**/
 
 .section-team {
+  background: #f4f4fd;
   padding: 120px 0;
-  max-width: 1400px;
-  height: 732px;
   flex-shrink: 0;
 }
 
@@ -280,7 +279,14 @@ span {
 }
 
 .team-link-item {
-  background-color: #f4f4fd;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
