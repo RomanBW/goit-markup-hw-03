@@ -40,6 +40,8 @@ li {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /**!=========================================================*/
@@ -236,7 +238,6 @@ span {
   border: 0;
   padding: 0;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
 }
 
 .main-item-text {
@@ -384,14 +385,12 @@ span {
   margin-bottom: 16px;
 }
 .footer-logo-span {
-  display: inline-block;
   color: #f4f4fd;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 101.5px;
 }
 .footer-text {
   color: #f4f4fd;
@@ -400,4 +399,7 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+a .footer-logo {
+  display: inline-block;
 }
