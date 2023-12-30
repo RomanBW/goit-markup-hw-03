@@ -1,13 +1,3 @@
-body {
-  color: #434455;
-  background-color: #ffffff;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  font-weight: 400;
-  font-size: 16px;
-  margin: 0;
-}
-
 *,
 *::before,
 *::after {
@@ -238,6 +228,7 @@ span {
   border: 0;
   padding: 0;
   clip-path: inset(100%);
+  clip: rect(0 0 0 0);
 }
 
 .main-item-text {
@@ -384,6 +375,9 @@ span {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
+.footer-name {
+  display: inline-block;
+}
 .footer-logo-span {
   color: #f4f4fd;
   font-size: 18px;
@@ -399,7 +393,4 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-}
-a .footer-logo {
-  display: inline-block;
 }
