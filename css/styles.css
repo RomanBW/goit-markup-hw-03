@@ -169,8 +169,6 @@ span {
   letter-spacing: 0.02em;
   box-sizing: border-box;
   max-width: 496px;
-  margin-top: 188px;
-  margin-bottom: 292px;
 }
 
 .main-button {
@@ -189,8 +187,8 @@ span {
   align-items: flex-start;
   gap: 10px;
   display: block;
-  margin-top: 356px;
-  margin-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-button:hover,
