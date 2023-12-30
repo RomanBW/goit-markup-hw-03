@@ -169,6 +169,7 @@ span {
   height: 600px;
   flex-shrink: 0;
   padding: 188px 0;
+  justify-content: center;
 }
 
 .main-title {
@@ -180,6 +181,8 @@ span {
   letter-spacing: 0.02em;
   box-sizing: border-box;
   max-width: 496px;
+  min-height: 120px;
+  margin-bottom: 48px;
 }
 
 .main-button {
@@ -391,13 +394,13 @@ span {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
   margin-bottom: 16px;
   margin-right: 76px;
   display: inline-block;
 }
 
 .footer-logo-span {
-  display: inline-block;
   color: #f4f4fd;
   font-size: 18px;
   font-weight: 700;
