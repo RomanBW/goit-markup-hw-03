@@ -374,7 +374,6 @@ span {
   padding: 100px 0;
   max-width: 1440px;
   flex-shrink: 0;
-  display: inline-block;
 }
 .footer-logo {
   color: #4d5ae5;
@@ -387,6 +386,7 @@ span {
   margin-bottom: 16px;
 }
 .footer-logo-span {
+  display: inline-block;
   color: #f4f4fd;
   font-size: 18px;
   font-weight: 700;
