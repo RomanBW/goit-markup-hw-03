@@ -257,7 +257,6 @@ span {
 /**?____section-team____**/
 
 .section-team {
-  background-color: #f4f4fd;
   padding: 120px 0;
   max-width: 1400px;
   height: 732px;
@@ -265,7 +264,6 @@ span {
 }
 
 .section-team-title {
-  background-color: #ffffff;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -282,9 +280,9 @@ span {
 }
 
 .team-link-item {
+  background-color: #f4f4fd;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  margin-top: 232px;
 }
 
 .container-text {
@@ -320,8 +318,6 @@ span {
 
 .section-portfolio {
   padding: 120px 0 120px 0;
-  max-width: 1440px;
-  height: 1240px;
 }
 
 .portfolio-name {
@@ -387,7 +383,6 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
   margin-right: 76px;
 }
 
